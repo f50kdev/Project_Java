@@ -68,8 +68,17 @@ public class operadoredores {
 
         //operadores de atribuicao
         double bonus =1200;
-        bonus = bonus +1000;
+        double imposto = 100;
+        double totalDoSalario;
+
+       // bonus = bonus +1000;
+        //mehores formas de aplicacao
+        bonus += 1000;
+        bonus -= bonus;
+        totalDoSalario = bonus;
+
         System.out.println(bonus);
+
 
 
 

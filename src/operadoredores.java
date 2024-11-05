@@ -59,7 +59,8 @@ public class operadoredores {
         double valorTotalContaCorrente  = 200;
         double valorTotalContaPoupanca  = 10000;
         float PriceOfPlaystation  = 5000F;
-        boolean isPlaystationFiveBuyOrNot = valorTotalContaCorrente >
+        boolean isPlaystationFiveBuyOrNot = valorTotalContaCorrente > ValoresTabbela_ASCI;
+
 
 
 

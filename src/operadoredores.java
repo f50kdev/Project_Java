@@ -59,10 +59,17 @@ public class operadoredores {
         double valorTotalContaCorrente  = 200;
         double valorTotalContaPoupanca  = 10000;
         float PriceOfPlaystation  = 5000F;
-        boolean isPlaystationFiveBuyOrNot = valorTotalContaCorrente > ValoresTabbela_ASCI;
+        double reserva = 1200;
+        boolean isPlaystationFiveBuyOrNot = valorTotalContaCorrente > PriceOfPlaystation+ 100 || PriceOfPlaystation  < reserva;
 
+        System.out.println("the value is  "+ isPlaystationFiveBuyOrNot);
+        System.out.println("a playstation e compravel" );
+        System.out.printf("O valor e estavel para compra" + isPlaystationFiveBuyOrNot);
 
-
+        //operadores de atribuicao
+        double bonus =1200;
+        bonus = bonus +1000;
+        System.out.println(bonus);
 
 
 

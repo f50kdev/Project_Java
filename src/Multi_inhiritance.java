@@ -14,8 +14,8 @@ class Profil{
      public static void main(String[] args) {
          Profil date = new Profil();
          Status status = new Status();
+         ANDHRA andhra = new ANDHRA();
          System.out.println(date.name);
-
-
+         System.out.println(andhra.AUInfo);
      }
 }

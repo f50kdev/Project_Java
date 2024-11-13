@@ -7,5 +7,11 @@ public class playstation {
         System.out.println("DentroDaLeiMaiorQueTrinta: " + DentroDaLeiMaiorQueTrinta  );
         System.out.println(" isDentroDaLeiMenorQueTrinta: " +  isDentroDaLeiMenorQueTrinta);
 
+        double valorTotalContaConrrente = 200;
+         double valorTotalContaPoucapanca = 10000;
+
+         float  valorPlaystation = 5000;
+
+        boolean isPlaystationCncoCompravel = valorTotalContaConrrente >  valorPlaystation || valorTotalContaPoucapanca>valorPlaystation;
     }
 }

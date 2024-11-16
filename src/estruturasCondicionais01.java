@@ -1,4 +1,4 @@
-public class estruturasCondicionais {
+public class estruturasCondicionais01 {
     public static void main(String[] args) {
         int idade = 20;
         boolean entrada = idade <= 20;

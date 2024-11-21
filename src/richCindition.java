@@ -7,7 +7,7 @@ public class richCindition {
         String  category="";
         if (age < 15) {
             category = "teeneger category";
-        } else if (!(age >= 15 && age<18){
+        } else if (age ==12){
             category ="teeneger category";
 
         }

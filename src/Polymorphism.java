@@ -1,5 +1,7 @@
 class  calculator{
     int sum(int a ,int  b ){
+        int total = a +b;
+        return   total;
 }
 
 public class Polymorphism {
